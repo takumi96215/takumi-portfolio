@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kobaysi Takumi | Resume</title>
+	<meta name="description" content="Tiffany - Modern Portfolio Template" />
+	<meta name="keywords" content="blog, business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme, vcard" />
+	<meta name="author" content="beingeorge" />
+	<meta name="theme-color" content="#000">
+
+	<!-- Vendor Css-->
+	<link rel="stylesheet" href="./assets/css/vendor.css" />
+	<link rel="stylesheet" href="./assets/css/LineIcons.min.css" />
+	<link rel="stylesheet" type="/text/css" href="./assets/css/photoswipe.min.css" />
+	<link rel="stylesheet" type="/text/css" href="assets/css/default-skin.min.css" />
+
+	<!-- Settings style Css -->
+	<link href="assets/css/settings.css" rel="stylesheet">
+
+	<link href="assets/css/theme-blue.css" rel="stylesheet">
+	<!-- <link href="assets/css/theme-green.css" rel="stylesheet"> -->
+	<!-- <link href="assets/css/theme-pink.css" rel="stylesheet"> -->
+	<!-- <link href="assets/css/theme-purple.css" rel="stylesheet"> -->
+	<!-- <link href="assets/css/theme-yellow.css" rel="stylesheet"> -->
+	<!-- <link href="assets/css/theme-red.css" rel="stylesheet"> -->
+	<!-- <link href="assets/css/theme-blue.css" rel="stylesheet"> -->
+	<!-- <link href="assets/css/theme-grey.css" rel="stylesheet"> -->
+
+	<!-- Custom style Css -->
+	<link href="./assets/css/custom.css" rel="stylesheet">
+	<style>
+		.lang-switcher {
+			position: fixed;
+			top: 20px;
+			right: 20px;
+			z-index: 9999;
+			display: flex;
+			gap: 10px;
+		}
+
+		.lang-btn {
+			border: 1px solid #000000;
+			background: #000000;
+			color: #ffffff;
+			padding: 8px 14px;
+			border-radius: 999px;
+			cursor: pointer;
+			transition: all 0.3s ease;
+		}
+
+		.lang-btn.active {
+			background: #111111;
+			color: #ffffff;
+		}
+
+		.project-card {
+			color: #000000;
+		}
+
+		.project-card h3,
+		.project-card p,
+		.project-card a,
+		.project-card .project-card__tag,
+		.project-card .project-card__stack li {
+			color: #000000;
+		}
+	</style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar-collapse">
+	<div class="lang-switcher">
+		<button type="button" class="lang-btn" data-lang="en">English</button>
+		<button type="button" class="lang-btn active" data-lang="ja">日本語</button>
+	</div>
+
+	<!-- Setting Panel -->
+    <div class="settings_panel">
+		<div class="toggle_bts">
+			<a class="toggle-theme-panel active" href="#">
+				<i class='lni lni-cog'></i>
+			</a>
+		</div>
+		<div class="settings-content">
+			<h5>Color Switcher</h5>
+			<ul class="colors-switch">
+				<li><a href="#" title="theme-blue" class="theme-blue"></a></li>
+				<li><a href="#" title="theme-green" class="theme-green"></a></li>
+				<li><a href="#" title="theme-red" class="theme-red"></a></ls
+					>
+				<li><a href="#" title="theme-yellow" class="theme-yellow"></a></li>
+				<li><a href="#" title="theme-purple" class="theme-purple"></a></li>
+				<li><a href="#" title="theme-pink" class="theme-pink"></a></li>
+				<li><a href="#" title="theme-darkblue" class="theme-darkblue"></a></li>
+				<li><a href="#" title="theme-grey" class="theme-grey"></a></li>
+			</ul>
+			<h5>Background Demos</h5>s
+		</div>
+	</div>
+	<!-- Setting Panel -->
+
+	<!-- START: Preloader -->
+	<div id="preloader" class="preloader">
+		<div class="spinner">
+			<div class="spinner-grow" role="status">
+		</div>
+			<span class="sr-only">Loading...</span>
+		</div>
+		<div class="preloader-screens">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+	</div>
+	<!-- END: Preloader -->
+
+	<!-- START: Aside -->
+	<aside class="aside">
+		<!-- START: NAVBAR -->
+
+		<div class="nav-wrapper">
+
+			<div class="navbar-toggler">
+				<svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="60">
+				  <path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+				  <path class="line middle" d="m 30,50 h 40" />
+				  <path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+				</svg>
+			</div>
+
+			<nav class="navbar text-center align-items-center justify-content-center">
+
+
+
+                <div class="collapse navbar-collapse show" id="navbarCollapse">
+
+					<div class="about-avatar mb-5">
+                		<a href="./index-2.html">
+							<img src="assets/images/about.jpg" alt="" class="img-fluid mx-auto d-block shadow-sm rounded-full">
+						</a>
+
+						<div class="about-avatar-details mt-3">
+							<p class="badge" data-name-text data-en="KOBAYASHI TAKUMI" data-ja="小林　匠">KOBAYASHI TAKUMI</p>
+						</div>
+					</div>
+				
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link ripple active" href="#home">
+                            	<i class="lni-home"></i>
+                            	<span>Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ripple" href="#services">
+                            	<i class="lni-offer"></i>
+                            	<span>Services</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ripple" href="#portfolio">
+                            	<i class="lni-graduation"></i>
+                            	<span>Portfolio</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ripple" href="#resume">
+                            	<i class="lni-briefcase"></i>
+                            	<span>resume</span>
+                            </a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link ripple" href="#contact">
+                            	<i class="lni-phone-handset"></i>
+                            	<span>Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+               	<div class="aside-footer">
+                	<ul class="list-unstyled list-inline">
+                         <li class="list-inline-item"><a href="https://github.com/akdev5" title="GitHub" target="_blank"><i class="lni-github-original"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="lni-linkedin-original"></i></a></li>
+                    </ul>
+                </div>
+	        </nav>
+        </div>
+        <!-- END: NAVBAR -->
+    </aside>
+    <!-- START: Aside -->
+
+    <div class="page-wrapper section-dark">
+
+		<!-- START: HOME -->
+    	<section class="section section-home section-home-2 " id="home">
+
+    		<div id="scene">
+    			<img data-depth="0.1" class="shape1" src="assets/images/decor1.png" alt="Scene Images1">
+    			<img data-depth="0.1" class="shape4" src="assets/images/decor4.png" alt="Scene Images1">
+    			<img data-depth="0.1" class="shape5" src="assets/images/shape5.svg" alt="Scene Images1">
+    			<img data-depth="0.1" class="shape6" src="assets/images/shape6.svg" alt="Scene Images1">
+    			<img data-depth="0.2" class="shape2" src="assets/images/decor2.png" alt="Scene Images2">
+    			<img data-depth="0.4" class="shape3" src="assets/images/decor3.png" alt="Scene Images3">
+    			<img data-depth="0.2" class="shape7" src="assets/images/shape7.svg" alt="Scene Images3">
+    			<img data-depth="0.1" class="shape8" src="assets/images/shape8.svg" alt="Scene Images3">
+    		</div>
+
+    		<div class="container vh-100">
+    			<div class="row justify-content-center align-items-center section-home-in h-100vh">
+    				<img class="hero-img img-fluid" src="assets/images/avatar.jpg" alt="About Picture">
+    				<h1 class="my-4">
+						<span id="autoplay" data-elements=",,">
+							<span>MVP Developer.</span>
+							<span>AI / ML Developer</span>
+							<span>Web Developer</span>
+						</span>
+					</h1>
+    			</div>
+    		</div>
+    		<div id="scroll-down"></div>
+    	</section>
+    	<!-- END: HOME -->
+
+    	<!-- START: ABOUT -->
+    	<section class="section section-about " id="home" style="padding-bottom: 60px;">
+    		<div class="container">
+    			<div class="row justify-content-center align-items-center">
+    				<div class="col-md-7">
+    					<div class="hero-right mt-5 mt-md-0 text-center" data-wow-delay="300ms">
+    						<h5>Hello!</h5>
+    						<h2 class="my-4">
+    							<span data-name-text data-en="I'm KOBAYASHI TAKUMI" data-ja="小林　匠と申します。">I'm KOBAYASHI TAKUMI</span>
+    						</h2>
+    						<p style="padding-bottom: 20px;">Senior Full Stack Engineer | Technical Lead | Software Architect</p>   		
+								<a href="https://kobayashi-takumi.app/assets/pdf/kobayasi-takumi.pdf" class="btn ripple mt-0 mb-lg-12 mr-7">Download CV</a>			
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</section>
+		<!-- END: ABOUT -->
+
+		<!-- START: SERVICES -->
+		<section class="section section-dark section-services" id="services">
+			<div class="container">
+				<div class="section-head">
+					<span>WHAT I DO</span>
+					<h2>My Services</h2>
+				</div>
+
+				<div class="section-inner">
+					<div class="row">
+						<div class="col-sm-6 col-lg-4">
+							<div class="services-list mt-5 "  >
+								<div class="list-icon list-icon-1">
+									<i class="lni-bulb size-md base-color"></i>
+								</div>
+								<div class="mt-4 pt-2">
+									<h5 class="mb-0">Concept & Strategy</h5>
+									<p class=" mt-3" data-en="I create clear project concepts and strategies by understanding the client's goals, target users, and business needs. I focus on defining practical solutions that connect creative ideas with measurable business value." data-ja="お客様の目的、ターゲットユーザー、ビジネス上のニーズを理解し、明確なプロジェクトのコンセプトと戦略を設計します。アイデアを実際のビジネス価値につなげ、実現可能で効果的なソリューションを提案します。"></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="services-list mt-5 "   >
+								<div class="list-icon list-icon-2">
+									<i class="lni-laptop-phone"></i>
+								</div>
+								<div class="mt-4 pt-2">
+									<h5 class="mb-0">Web Development</h5>
+									<p class=" mt-3" data-en="I develop modern and responsive web applications that provide reliable performance and a smooth user experience. I create scalable solutions for various business needs, from corporate websites and e-commerce platforms to custom web applications and online services." data-ja="高いパフォーマンスと快適なユーザー体験を実現する、最新のレスポンシブWebアプリケーションを開発します。企業サイトやECサイトから、業務向けWebアプリケーション、オンラインサービスまで、さまざまなニーズに対応できる拡張性の高いシステムを構築します。"></p>
+								</div>。
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="services-list mt-5 "   >
+								<div class="list-icon list-icon-3">
+									<i class="lni-mobile size-md base-color"></i>
+								</div>
+								<div class="mt-4 pt-2">
+									<h5 class="mb-0">AI / ML Development</h5>
+									<p class=" mt-3" data-en="I develop intelligent applications by combining AI and machine learning technologies with modern software development. I use LLMs, Generative AI, RAG, and automation to create practical solutions that improve productivity, analyze information, and support smarter business decisions." data-ja="AI・機械学習技術と最新のソフトウェア開発技術を組み合わせ、インテリジェントなアプリケーションを開発します。LLM、生成AI、RAG、自動化技術などを活用し、業務効率の向上、情報分析、より適切な意思決定を支援する実用的なソリューションを提供します。"></p>
+								</div>
+							</div>
+						</div>	
+						<div class="col-sm-6 col-lg-4">
+							<div class="services-list mt-5 "   >
+								<div class="list-icon list-icon-6">
+									<i class="lni-grow size-md base-color"></i>
+								</div>
+								<div class="mt-4 pt-2">
+									<h5 class="mb-0">MVP Development</h5>
+									<p class=" mt-3" data-en="I turn business ideas into functional MVPs by focusing on essential features and real user needs. This approach allows businesses to quickly test their ideas, collect valuable feedback, and improve their products based on real-world results." data-ja="ビジネスアイデアを、必要な機能と実際のユーザーニーズに重点を置いたMVPへと形にします。実際のユーザーからフィードバックを得ながらアイデアを素早く検証し、実際の利用結果に基づいて製品を継続的に改善できるようにします。"></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="services-list mt-5 "   >
+								<div class="list-icon list-icon-4">
+									<i class="lni-medall-alt size-md base-color mb-0"></i>
+								</div>
+								<div class="mt-4 pt-2">
+									<h5 class="mb-0">Quality Assurance</h5>
+									<p class=" mt-3" data-en="I carefully test and review each stage of development to ensure that the product works correctly and meets the required quality standards. I identify potential problems early, improve system performance, and make sure the final product meets the client's expectations." data-ja="開発の各段階で丁寧なテストと確認を行い、製品が正しく動作し、必要な品質基準を満たしていることを確認します。潜在的な問題を早期に発見し、システムの性能を改善するとともに、最終的な製品がお客様の期待や要件を満たすように品質を管理します。"></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="services-list mt-5 "   >
+								<div class="list-icon list-icon-5">
+								     <i class="flaticon-ux"></i>							
+								</div>
+								<div class="mt-4 pt-2">
+									<h5 class="mb-0">DevOps & Cloud</h5>
+									<p class=" mt-3" data-en="I design and maintain secure, scalable, and reliable cloud environments that support modern web applications and digital services. By improving deployment, monitoring, and development processes, I help teams deliver stable products faster and maintain them efficiently." data-ja="最新のWebアプリケーションやデジタルサービスを支えるため、安全性・拡張性・信頼性に優れたクラウド環境を構築・運用します。デプロイ、監視、開発プロセスを効率化することで、安定した製品をより迅速に提供し、継続的に運用・改善できる環境を実現します。	"></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END: SERVICES -->
+
+		<!-- START: PORTFOLIO -->
+		<section class="section section-projects" id="portfolio">
+    		<div class="container">
+    			<div class="row align-items-end">
+    				<div class="col-12 col-md-4">
+    					<div class="section-head">
+						<span>FEATURED WORK</span>
+						<h2>Projects</h2>
+					</div>
+    				</div>
+    				<div class="col-md-8">
+    					<p class="section-intro">A few recent builds that combine product thinking, thoughtful UI, and practical engineering.</p>
+    				</div>
+    			</div>
+
+    			<div class="section-inner">
+				<div class="row g-4">
+					<div class="col-md-6 col-lg-4">
+						<article class="project-card">
+							<div class="project-card__media">
+							<img src="assets/images/p1-1.jpg" alt="TruthScope Browser Extension screenshot" />
+							</div>
+							<span class="project-card__tag">Browser Extension</span>
+							<h3>TruthScope</h3>
+							<p>AI-powered browser extension that analyzes webpage content, detects misinformation, and returns a credibility score.</p>
+							<ul class="project-card__stack">
+								<li>JavaScript</li>
+								<li>Gemini SDK</li>
+								<li>Manifest V3</li>
+							</ul>
+						</article>
+					</div>
+
+					<div class="col-md-6 col-lg-4">
+						<article class="project-card">
+							<div class="project-card__media">
+							<img src="assets/images/p2-2.jpg" alt="Coordina dashboard UI screenshot" />
+							</div>
+							<span class="project-card__tag">Dashboard UI</span>
+							<h3>Coordina</h3>
+							<p>A Smart India Hackathon project focused on intuitive dashboards for government departments and administrative workflows.</p>
+							<ul class="project-card__stack">
+								<li>Next.js</li>
+								<li>React</li>
+								<li>MongoDB</li>
+							</ul>
+						</article>
+					</div>
+
+					<div class="col-md-6 col-lg-4">
+						<article class="project-card">
+							<div class="project-card__media">
+							<img src="assets/images/p3-3.jpg" alt="GitHub Diary developer tool screenshot" />
+							</div>
+							<span class="project-card__tag">Developer Tool</span>
+							<h3>GitHub Diary</h3>
+							<p>A VS Code extension that automatically records coding activity into a private GitHub-backed diary for reflection and progress tracking.</p>
+							<ul class="project-card__stack">
+								<li>VS Code</li>
+								<li>TypeScript</li>
+								<li>GitHub API</li>
+							</ul>
+						</article>
+					</div>
+
+					<div class="col-md-6 col-lg-4">
+						<article class="project-card">
+							<div class="project-card__media">
+							<img src="assets/images/p9-9.jpg" alt="MealMetric nutrition app screenshot" />
+							</div>
+							<span class="project-card__tag">Nutrition App</span>
+							<h3>MealMetric</h3>
+							<p>A web app that calculates meal nutrition information from ingredient input and helps users understand their food better.</p>
+							<ul class="project-card__stack">
+								<li>Node.js</li>
+								<li>Express</li>
+								<li>PostgreSQL</li>
+							</ul>
+						</article>
+					</div>
+
+					<div class="col-md-6 col-lg-4">
+						<article class="project-card">
+							<div class="project-card__media">
+							<img src="assets/images/slider1.jpg" alt="Chat App realtime messaging screenshot" />
+							</div>
+							<span class="project-card__tag">Realtime App</span>
+							<h3>Chat App</h3>
+							<p>A modern real-time messaging experience with authentication, typed messages, and a polished user interface.</p>
+							<ul class="project-card__stack">
+								<li>Next.js</li>
+								<li>React</li>
+								<li>Convex</li>
+							</ul>
+						</article>
+					</div>
+					
+					<div class="col-md-6 col-lg-4">
+						<article class="project-card">
+							<div class="project-card__media">
+							<img src="assets/images/p4-4.jpg" alt="DocuMind AI screenshot" />
+							</div>
+							<span class="project-card__tag">AI-powered Document Intelligence and Assistant</span>
+							<h3>DocuMind AI</h3>
+							<p>DocuMind AI is an AI assistant that uses OpenAI, LLMs, RAG, and LangChain to search documents and answer user questions.</p>
+							<ul class="project-card__stack">
+								<li>OpenAI</li>
+								<li>LLMs</li>
+								<li>RAG</li>
+								<li>AI Agents</li>
+								<li>Python</li>
+								<li>Cursor</li>
+								<li>TensorFlow</li>
+
+							</ul>
+						</article>
+					</div>
+				</div>
+			</div>
+    	</section>
+    	<!-- END: PORTFOLIO -->
+
+		<!-- START: RESUME -->
+		<section class="section section-resume" id="resume">
+			<div class="container">
+
+				<div class="section-head">
+					<span>My Resume</span>
+					<h2>My Expertises</h2>
+				</div>
+
+				<div class="section-inner">
+					<div class="section-resume-wrap">
+						<div class="section-experience mb-5">
+							<div class="row">
+								<div class="col-lg-12">
+									<h5 class="section-subHead mb-4 "> My Experience</h5>
+								</div>
+
+								<div class="col-lg-12">
+									<div class="ExperienceList pb-3">
+
+										<div class="resume-list b-box p-4 " >
+											<div class="row align-items-center">
+												<div class="col-md-15 pb-2 pb-md-0">
+													<h5 class="mb-3">Senior Software Engineer - Self-Employed</h5>
+													<h6 class="badge badge-primary">2.2023 – Present</h6>
+													<p>•Designed scalable software architectures tailored to client business requirements.</p>
+													<p>•Led technical planning from requirements gathering through production deployment.</p>
+													<p>•Developed AI-powered solutions using LLMs, RAG, LangChain, and AI Agents to automate workflows and enhance business applications.</p>
+													<p>•Delivered custom software solutions while maintaining close communication with stakeholders throughout the project lifecycle.</p>
+												</div>												
+											</div>
+										</div>
+										<div class="resume-list b-box p-4 " >
+											<div class="row align-items-center">
+												<div class="col-md-15 pb-2 pb-md-0">
+													<h5 class="mb-3">Senior Full Stack Developer - Lendistry</h5>
+													<h6 class="badge badge-success">5.2021 – 1.2023</h6>
+													<p>•Led architecture and development of underwriting systems and customer-facing portals.</p>
+													<p>•Built scalable frontend and backend features using modern JavaScript frameworks.</p>
+													<p>•Increased software reliability by maintaining over 80% automated test coverage with Jest and Cypress.</p>
+													<p>•Conducted code reviews and architectural design sessions to improve engineering quality.</p>
+													<p>•Standardized development workflows and deployment processes using Git and CI/CD practices.</p>
+												</div>												
+											</div>
+										</div>
+										<div class="resume-list b-box p-4 " >
+											<div class="row align-items-center">
+												<div class="col-md-15 pb-2 pb-md-0">
+													<h5 class="mb-3">Senior Full Stack Developer - PetalMD</h5>
+													<h6 class="badge badge-danger">10.2020 – 3.2021</h6>
+													<p>•Delivered new product features while collaborating closely with product managers and business stakeholders.</p>
+													<p>•Modernized more than 30 legacy application pages, improving responsiveness and mobile usability.</p>
+													<p>•Designed Docker-based development environments to accelerate onboarding and ensure production consistency.</p>
+													<p>•Built automated CI/CD pipelines with Circle CI and AWS, improving deployment reliability and operational efficiency.</p>
+													<p>•Refactored shared infrastructure to improve maintainability across multiple engineering teams.</p>
+												</div>										
+											</div>
+											</div>
+										<div class="resume-list b-box p-4 " >
+											<div class="row align-items-center">
+												<div class="col-md-15 pb-2 pb-md-0">
+													<h5 class="mb-3">Senior Full Stack Developer - SanX Information System Co., Ltd</h5>
+													<h6 class="badge badge-danger">11.2018 – 6.2020</h6>
+													<p>•Served as Technical Lead for multiple enterprise platforms, including tuition management and payment gateway systems.</p>
+													<p>•Directed software architecture and feature implementation across multiple concurrent projects.</p>
+													<p>•Mentored junior developers through code reviews, technical guidance, and pair programming.</p>
+													<p>•Improved application performance through browser profiling and frontend optimization.</p>
+													<p>•Managed project scope, engineering timelines, and technical planning while coordinating with stakeholders.</p>
+												</div>											
+											</div>
+											</div>
+										<div class="resume-list b-box p-4 " >
+											<div class="row align-items-center">
+												<div class="col-md-15 pb-2 pb-md-0">
+													<h5 class="mb-3">Web Developer - DataPro Co., Ltd</h5>
+													<h6 class="badge badge-danger">10.2017 – 9.2018</h6>
+													<p>•Gathered business requirements and translated them into scalable web applications.</p>
+													<p>•Modernized legacy PHP systems by migrating them to an MVC architecture.</p>
+													<p>•Developed responsive websites using WordPress, HTML5, CSS3, and JavaScript.</p>
+													<p>•Improved browser compatibility and application performance across multiple platforms.</p>
+													<p>•Produced technical documentation and testing artifacts to support long-term maintenance.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="section-education">
+							<div class="row">
+								<div class="col-lg-3">
+									<h5 class="section-subHead mb-4"> My Education</h5>
+								</div>
+
+								<div class="col-lg-9">
+									<div class="EducationList">
+										<div class="row">
+											<div class="col-md-15">
+												<div class="resume-list b-box p-4 mb-4 " >
+													<div>
+														<h5>Tokushima Anabuki College - Department of Information Systems</h5>
+														<h6 class="badge badge-danger d-inline-block my-3">2014 – 2017</h6>
+														<p>Collaborate with creative and development teams on the execution of ideas.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<!-- END: RESUME -->
+
+    	<!-- START: CONTACT -->
+		<section class="section section-contact" id="contact">
+			<div class="container">
+				<div class="section-head">
+					<span>Hello</span>
+					<h2>Contact </h2>
+				</div>
+
+				<div class="section-inner">
+					<div class="contact-Otherdetails ">
+						<div class="contact-details">
+							<h5 class="section-subHead mb-4"> Get in Touch</h5>
+							<div class="row justify-content-center align-items-center">
+								<div class="col-sm-6 col-lg-4">
+									<div class="contact-details--panel p-4 b-box text-center  " >
+										<div class="mb-3 list-icon list-icon-1">
+											<i class="lni-mobile"></i>
+										</div>
+										<div class="mt-2">
+											<a href="tel:9876543210" class="">0883-88-2219</a>
+											<p class="mt-2">Call Us</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6 col-lg-4">
+									<div class="contact-details--panel p-4 b-box text-center  "  >
+										<div class="mb-3 list-icon list-icon-5">
+											<i class="lni-envelope"></i>
+										</div>
+										<div class="mt-2">
+											<a href="mailto:hello@beingeorge.com">takumi96215@outlook.com</a>
+											<p class="mt-2">Email Us</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6 col-lg-4">
+									<div class="contact-details--panel p-4 b-box text-center  "  >
+										<div class="mb-3 list-icon list-icon-5">
+											<i class="lni-envelope"></i>
+										</div>
+										<div class="mt-2">
+											<a href="#">Miyoshi-shi, Tokushima 778-0201, Japan</a>
+											<p class="mt-2">Address</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="contact-form mt-5">
+							<form>
+								<h5 class="section-subHead mb-2"> Contact Form</h5>
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="form-group mt-3 " >
+											<input name="name" id="name" type="text" class="form-control b-box" placeholder="Your Name*" required>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="form-group mt-3 "  >
+											<input name="email" id="email" type="email" class="form-control b-box" placeholder="Your Email*" required>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-12">
+										<div class="form-group mt-3 "  >
+											<input type="text" class="form-control b-box" id="subject" placeholder="Your Subject.." required/>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-12">
+										<div class="form-group mt-3 "  >
+											<textarea name="comments" id="comments" rows="4" class="form-control b-box" placeholder="Your message..."></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-12 text-center mt-4">
+										<a href="#" class="btn ">Submit</a>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END: CONTACT -->
+
+		<!--START: FOOTER-->
+		<footer class="footer section section-light">
+			<div class="container">
+				<p class="copyright text-center mb-0">&copy; Tiffany 2020 | All Right Reserved</p>
+			</div>
+		</footer>
+		<!--END: FOOTER-->
+	</div>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+         It's a separate element, as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+        <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+	<!-- JAVASCRIPTS -->
+
+	<script src="assets/js/vendor.js"></script>
+
+	<script src="assets/js/parallax.min.js"></script>
+	<script src="assets/js/photoswipe.min.js"></script>
+	<script src="assets/js/photoswipe-ui-default.min.js"></script>
+
+
+	<!-- Custom Js -->
+	<script src="assets/js/imagesloaded.pkgd.js"></script>
+	<script src="assets/js/jquery.shuffle.min.js"></script>
+	<script src="assets/js/custom-shuffle-init.js"></script>
+	<script src="assets/js/pswp.js"></script>
+	<script src="assets/js/textition.min.js"></script>
+
+	<script src="assets/js/custom.js"></script>
+	<script>
+		const langButtons = document.querySelectorAll('.lang-btn');
+		const nameElements = document.querySelectorAll('[data-name-text]');
+		const localizedElements = document.querySelectorAll('[data-en][data-ja]');
+		const textNodeOriginals = new WeakMap();
+		let textNodesCache = [];
+		const normalizeText = (value) => (value || '').replace(/\s+/g, ' ').trim();
+		const translations = {
+			ja: {
+				"Tiffany - Modern Portfolio Template": "ティファニー - モダンポートフォリオテンプレート",
+				"Color Switcher": "配色切り替え",
+				"Background Demos": "背景デモ",
+				"Version 1": "バージョン1",
+				"Version 2": "バージョン2",
+				"Loading...": "読み込み中...",
+				"Home": "ホーム",
+				"Services": "サービス",
+				"Portfolio": "ポートフォリオ",
+				"resume": "履歴書",
+				"Blog": "ブログ",
+				"Contact": "お問い合わせ",
+				"Hello!": "こんにちは！",
+				"Hello": "こんにちは",		
+				"Senior Full Stack Engineer | Technical Lead | Software Architect": "シニアフルスタックエンジニア | テックリード | ソフトウェアアーキテクト",
+				"Download CV": "ダウンロードCV",
+				"Learn More": "もっと詳しく",
+				"WHAT I DO": "私ができること",
+				"My Services": "サービス内容",
+				"Concept & Strategy": "コンセプト・戦略",
+				"Web Development": "ウェブ開発",
+				"AI / ML Development": "AI・機械学習開発",
+				"MVP Development": "MVP開発",
+ 				"Quality Assurance": "品質保証（QA）",
+				"DevOps & Cloud": "DevOps・クラウド",
+				"FEATURED WORK": "注目の実績",
+				"Projects": "プロジェクト",
+				"A few recent builds that combine product thinking, thoughtful UI, and practical engineering.": "最近の実績の一部です。製品思考、洗練されたUI、実践的な開発を融合しています。",
+				"AI-powered browser extension that analyzes webpage content, detects misinformation, and returns a credibility score.": "ウェブページの内容を分析し、誤情報を検知して信頼性スコアを提示する、AI搭載のブラウザ拡張機能。",
+				"A Smart India Hackathon project focused on intuitive dashboards for government departments and administrative workflows.": "政府機関向けの直感的なダッシュボードや行政の業務フローの最適化に焦点を当てた、「Smart India Hackathon」のプロジェクト。",
+				"A VS Code extension that automatically records coding activity into a private GitHub-backed diary for reflection and progress tracking.": "コーディングの活動内容をGitHub上の非公開日記に自動記録し、振り返りや進捗管理を支援するVS Code拡張機能。",
+				"A web app that calculates meal nutrition information from ingredient input and helps users understand their food better.": "食材の入力情報から食事の栄養価を算出し、ユーザーが自身の食事内容をより深く理解できるよう支援するウェブアプリ。",
+				"A modern real-time messaging experience with authentication, typed messages, and a polished user interface.": "認証機能やメッセージ送信機能を備え、洗練されたユーザーインターフェースで快適なリアルタイム・メッセージング体験を提供するチャットアプリ。",
+				"DocuMind AI is an AI assistant that uses OpenAI, LLMs, RAG, and LangChain to search documents and answer user questions.": "DocuMind AIは、OpenAI、LLM、RAG、LangChainを使って、文書を検索し、質問に答えるAIアシスタントです。",
+				"My Resume": "職務経歴書",
+				"My Expertises": "専門分野",
+				"My Experience": "職務経歴",
+				"My Education": "学歴",				
+				"Tokushima Anabuki College - Department of Information Systems": "専門学校徳島穴吹カレッジ―情報システム学科",
+				"blog": "ブログ",
+				"My projects": "私のプロジェクト",
+				"Passion": "情熱",
+				"Design": "デザイン",
+				"View More": "もっと見る",
+				"Get in Touch": "お問い合わせ",
+				"Call Us": "お電話",
+				"Email Us": "メール",
+				"Address": "住所",
+				"Contact Form": "お問い合わせフォーム",
+				"Your Name*": "お名前*",
+				"Your Email*": "メールアドレス*",
+				"Your Subject..": "件名..",
+				"Your message...": "メッセージ...",
+				"Submit": "送信",
+				"View Project": "プロジェクトを見る",
+				"Browser Extension": "ブラウザ拡張機能",
+				"Dashboard UI": "ダッシュボード UI",
+				"Developer Tool": "開発ツール",
+				"Nutrition App": "栄養管理アプリ",
+				"Realtime App": "リアルタイムアプリ",
+				"TruthScope": "TruthScope",
+				"Coordina": "Coordina",
+				"GitHub Diary": "GitHub Diary",
+				"MealMetric": "MealMetric",
+				"Chat App": "チャットアプリ",
+				"Senior Software Engineer - Self-Employed": "シニアソフトウェアエンジニア - フリーランス",
+				"Senior Full Stack Developer - Lendistry": "シニアフルスタックデベロッパー - Lendistry",
+				"Senior Full Stack Developer - PetalMD": "シニアフルスタックデベロッパー - PetalMD",
+				"Senior Full Stack Developer - SanX Information System Co., Ltd": "シニアフルスタックデベロッパー - サンエックス情報システム",
+				"Web Developer - DataPro Co., Ltd": "Web開発者 - 有限会社データプロ",
+				"2.2023 – Present": "2.2023 - 現在",
+				"•Designed scalable software architectures tailored to client business requirements.": "• クライアントのビジネス要件に合わせたスケーラブルなソフトウェアアーキテクチャを設計。",
+				"•Led technical planning from requirements gathering through production deployment.": "• 要件定義から本番デプロイまでの技術計画を主導。",
+				"•Developed AI-powered solutions using LLMs, RAG, LangChain, and AI Agents to automate workflows and enhance business applications.": "• LLM、RAG、LangChain、AI AgentなどのAI技術を活用し、業務の自動化とAIを活用したアプリケーションの開発を推進。",
+				"•Delivered custom software solutions while maintaining close communication with stakeholders throughout the project lifecycle.": "• プロジェクト全体を通じてステークホルダーと密に連携し、カスタムソフトウェアソリューションを提供。",
+				"•Led architecture and development of underwriting systems and customer-facing portals.": "• 与信審査システムおよび顧客向けポータルのアーキテクチャ設計・開発を主導。",
+				"•Built scalable frontend and backend features using modern JavaScript frameworks.": "• モダンなJavaScriptフレームワークを用いたスケーラブルなフロントエンド／バックエンド機能を構築。",
+				"•Increased software reliability by maintaining over 80% automated test coverage with Jest and Cypress.": "• JestとCypressによる自動テストカバレッジ80%以上を維持し、ソフトウェアの信頼性を向上。",
+				"•Conducted code reviews and architectural design sessions to improve engineering quality.": "• コードレビューおよびアーキテクチャ設計セッションを実施し、エンジニアリング品質を改善。",
+				"•Standardized development workflows and deployment processes using Git and CI/CD practices.": "• GitとCI/CDの実践により、開発ワークフローとデプロイプロセスを標準化。",
+				"•Delivered new product features while collaborating closely with product managers and business stakeholders.": "• プロダクトマネージャーおよびビジネスステークホルダーと緊密に連携し、新機能を継続的に提供。",
+				"•Modernized more than 30 legacy application pages, improving responsiveness and mobile usability.": "• 30ページ以上のレガシー画面をモダナイズし、レスポンシブ対応とモバイルユーザビリティを改善。",
+				"•Designed Docker-based development environments to accelerate onboarding and ensure production consistency.": "• Dockerベースの開発環境を設計し、オンボーディングの迅速化と本番環境との一貫性を確保。",
+				"•Built automated CI/CD pipelines with Circle CI and AWS, improving deployment reliability and operational efficiency.": "• CircleCIとAWSによる自動CI/CDパイプラインを構築し、デプロイの信頼性と運用効率を向上。",
+				"•Refactored shared infrastructure to improve maintainability across multiple engineering teams.": "• 複数のエンジニアリングチームで共有するインフラをリファクタリングし、保守性を改善。",
+				"•Served as Technical Lead for multiple enterprise platforms, including tuition management and payment gateway systems.": "• 学費管理システムや決済ゲートウェイシステムを含む複数のエンタープライズプラットフォームでテクニカルリードを担当。",
+				"•Directed software architecture and feature implementation across multiple concurrent projects.": "• 複数の並行プロジェクトにおけるソフトウェアアーキテクチャと機能実装を統括。",
+				"•Mentored junior developers through code reviews, technical guidance, and pair programming.": "• コードレビュー、技術指導、ペアプログラミングを通じてジュニアエンジニアを育成。",
+				"•Improved application performance through browser profiling and frontend optimization.": "• ブラウザプロファイリングとフロントエンド最適化により、アプリケーションのパフォーマンスを改善。",
+				"•Managed project scope, engineering timelines, and technical planning while coordinating with stakeholders.": "• ステークホルダーと調整しつつ、プロジェクトスコープ、開発スケジュール、技術計画を管理。",
+				"•Gathered business requirements and translated them into scalable web applications.": "• ビジネス要件をヒアリングし、スケーラブルなWebアプリケーションとして実装。",
+				"•Modernized legacy PHP systems by migrating them to an MVC architecture.": "• レガシーPHPシステムをMVCアーキテクチャへ移行し、モダナイズを実施。",
+				"•Developed responsive websites using WordPress, HTML5, CSS3, and JavaScript.": "• WordPress、HTML5、CSS3、JavaScriptを用いたレスポンシブWebサイトを開発。",
+				"•Improved browser compatibility and application performance across multiple platforms.": "• 複数プラットフォームにおけるブラウザ互換性とアプリケーションパフォーマンスを改善。",
+				"•Produced technical documentation and testing artifacts to support long-term maintenance.": "• 長期保守を支える技術ドキュメントおよびテスト資料を作成。",
+				"© Tiffany 2020 | All Right Reserved": "© Tiffany 2020 | All rights reserved",
+				"Collaborate with creative and development teams on the execution of ideas.":"アイデアの実現に向けて、クリエイティブチームおよび開発チームと連携しました。", 
+				"KOBAYASHI TAKUMI": "小林　匠（コバヤシ　タクミ）",	
+				"- KOBAYASHI TAKUMI": "- 小林　匠（コバヤシ　タクミ）",
+				"KOBAYASHI TAKUMI": "小林　匠（コバヤシ　タクミ）と申します。",
+				"Miyoshi-shi, Tokushima 778-0201, Japan": "〒778-0201 徳島県三好市"
+			}
+		};
+
+		function setLanguage(lang) {
+			langButtons.forEach((button) => {
+				button.classList.toggle('active', button.dataset.lang === lang);
+			});
+
+			nameElements.forEach((element) => {
+				const value = element.dataset[lang === 'ja' ? 'ja' : 'en'];
+				if (value) {
+					element.textContent = value;
+				}
+			});
+
+			localizedElements.forEach((element) => {
+				const value = element.dataset[lang === 'ja' ? 'ja' : 'en'];
+				if (value) {
+					element.textContent = value;
+				}
+			});
+
+			const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+				acceptNode(node) {
+					const parent = node.parentElement;
+					if (!parent || parent.tagName === 'SCRIPT' || parent.tagName === 'STYLE') {
+						return NodeFilter.FILTER_REJECT;
+					}
+					if (parent.closest('[data-name-text]') || parent.closest('[data-en][data-ja]')) {
+						return NodeFilter.FILTER_REJECT;
+					}	
+					return node.nodeValue && node.nodeValue.trim() ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+				}
+			});
+
+			const seenNodes = [];
+			while (walker.nextNode()) {
+				const node = walker.currentNode;
+				if (!textNodeOriginals.has(node)) {
+					textNodeOriginals.set(node, node.nodeValue);
+				}
+				seenNodes.push(node);
+			}
+
+			seenNodes.forEach((node) => {
+				const originalText = textNodeOriginals.get(node);
+				if (lang === 'ja') {
+					const translated = translations.ja[originalText] || translations.ja[originalText.trim()] || originalText;
+					node.nodeValue = translated;
+				} else {
+					node.nodeValue = originalText;
+				}
+			});
+		}
+
+		langButtons.forEach((button) => {
+			button.addEventListener('click', () => setLanguage(button.dataset.lang));
+		});
+
+		setLanguage('ja');
+	</script>
+</body>
+
+</html>
