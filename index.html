@@ -238,7 +238,7 @@
     							<span data-name-text data-en="I'm KOBAYASHI TAKUMI" data-ja="小林　匠と申します。">I'm KOBAYASHI TAKUMI</span>
     						</h2>
     						<p style="padding-bottom: 20px;">Senior Full Stack Engineer | Technical Lead | Software Architect</p>   		
-								<a href="https://kobayasidev.netlify.app/assets/pdf/Kobayashi_Takumi_Resume.pdf" class="btn ripple mt-0 mb-lg-12 mr-7">Download CV</a>			
+								<a id="resumeLink" href="assets/pdf/Kobayashi_Takumi_Resume_JP.pdf" class="btn ripple mt-0 mb-lg-12 mr-7">Download CV</a>			
     					</div>
     				</div>
     			</div>
@@ -553,7 +553,6 @@
 													<div>
 														<h5>Tokushima Anabuki College - Department of Information Systems</h5>
 														<h6 class="badge badge-danger d-inline-block my-3">2014 – 2017</h6>
-														<p>Collaborate with creative and development teams on the execution of ideas.</p>
 													</div>
 												</div>
 											</div>
@@ -847,8 +846,6 @@
 				"•Improved browser compatibility and application performance across multiple platforms.": "• 複数プラットフォームにおけるブラウザ互換性とアプリケーションパフォーマンスを改善。",
 				"•Produced technical documentation and testing artifacts to support long-term maintenance.": "• 長期保守を支える技術ドキュメントおよびテスト資料を作成。",
 				"© Tiffany 2020 | All Right Reserved": "© Tiffany 2020 | All rights reserved",
-				"Collaborate with creative and development teams on the execution of ideas.":"アイデアの実現に向けて、クリエイティブチームおよび開発チームと連携しました。", 
-				"KOBAYASHI TAKUMI": "小林　匠（コバヤシ　タクミ）",	
 				"- KOBAYASHI TAKUMI": "- 小林　匠（コバヤシ　タクミ）",
 				"KOBAYASHI TAKUMI": "小林　匠（コバヤシ　タクミ）と申します。",
 				"Miyoshi-shi, Tokushima 778-0201, Japan": "〒778-0201 徳島県三好市"
@@ -907,12 +904,29 @@
 			});
 		}
 
+		const resumeLink = document.getElementById('resumeLink');
+
+		function updateResumeLink(lang) {
+			if (!resumeLink) return;
+			const paths = {
+				en: 'assets/pdf/Kobayashi_Takumi_Resume.pdf',
+				ja: 'assets/pdf/Kobayashi_Takumi_Resume_JP.pdf'
+			};
+			resumeLink.href = paths[lang] || paths.en;
+		}
+
 		langButtons.forEach((button) => {
-			button.addEventListener('click', () => setLanguage(button.dataset.lang));
+			button.addEventListener('click', () => {
+				setLanguage(button.dataset.lang);
+				updateResumeLink(button.dataset.lang);
+			});
 		});
 
 		setLanguage('ja');
+		updateResumeLink('ja');
 	</script>
 </body>
 
 </html>
+
+
